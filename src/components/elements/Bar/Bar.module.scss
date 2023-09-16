@@ -1,0 +1,25 @@
+.bar {
+    width: 156px;
+    height: 6px;
+    border-radius: var(--bar-radius);
+    background-color: var(--color-bar);
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.progress-green {
+    width: 68px;
+}
+.progress-yellow {
+    width: 67px;
+}
+.progress-red {
+    width: 78px;
+}

@@ -1,0 +1,22 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    width: 240px;
+    min-height: 100vh;
+    padding: 20px 0;
+    background-color: var(--color-sidebar);
+}
+
+.logo {
+    margin-left: 12px;
+    margin-bottom: 32px;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}

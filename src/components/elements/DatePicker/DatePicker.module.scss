@@ -1,0 +1,33 @@
+.datePicker{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    
+    & svg {
+        fill: var(--color-ui--gray);
+    }
+    & button {
+        color: var( --color-ui--blue-accent);
+        font-size: var(--fontsize-xs);
+        line-height: var(--lineheight-xs);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        &:hover svg{
+            fill: var( --color-ui--blue-accent);
+        }
+    }
+}
+
+.left {
+    transform: scale(-1);
+}
+
+.left, .right {
+    cursor: pointer;
+    &:hover{
+        fill: var( --color-ui--blue-accent);
+    }
+}
+

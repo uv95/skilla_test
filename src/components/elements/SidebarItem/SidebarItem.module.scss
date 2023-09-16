@@ -1,0 +1,30 @@
+.sidebarItem {
+    padding: 14px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: var(--fontsize-m);
+    line-height: var(--lineheight-m);
+    color: var(--color-font--menu);
+    cursor: pointer;
+}
+
+.active{
+  background-color: var(--color-sidebar-active);
+  color: white;
+  font-weight: bold;
+  position: relative;
+    &:after{
+        content: '';
+        width: 3px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: var(--color-ui--blue-accent);
+    }
+}
+
+.dot {
+    margin-left: auto;
+}

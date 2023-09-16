@@ -1,0 +1,18 @@
+.callsAnalytics {
+    font-size: var(--fontsize-xs);
+    line-height: var(--lineheight-s);
+}
+
+.callsAnalytics p{
+    margin-bottom: 7px;
+}
+
+.stats-red{
+    color: var(--color-ui--red);
+}
+.stats-green{
+    color: var(--color-ui--green);
+}
+.stats-yellow{
+    color: var(--color-ui--yellow);
+}

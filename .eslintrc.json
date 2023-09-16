@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-indent": [2, 4],
+    "react/jsx-indent-props": [2, 4],
+    "indent": [2, 4],
+    "block-spacing": "error",
+    "space-before-blocks": "error",
+    "space-in-parens": "error",
+    "no-multi-spaces": "error",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "arrow-spacing": "error"
+  }
 }

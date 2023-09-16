@@ -1,0 +1,38 @@
+.grade {
+    display: flex;
+    align-items: center;
+}
+.grade-excellent, .grade-good, .grade-bad {
+    line-height: var(--lineheight-xss);
+    font-size: var(--fontsize-xs);
+    padding: var(--padding--grade);
+    border-radius: var(--btn-radius--sm);
+}
+
+.grade-excellent {
+    color: var(--color-grade--green);
+    background-color: var(--color-ui--green-light);
+    border: 1px solid var(--color-ui--green);
+    margin-left: 8px;
+}
+.grade-good {
+    color: var(--color-font--blue);
+    background-color: var(--color-ui--gray-light);
+    border: 1px solid var(--color-ui--gray);
+    margin-left: 18px;
+}
+.grade-bad {
+    color: var(--color-ui--red);
+    background-color: var(--color-ui--red-light);
+    border: 1px solid var(--color-ui--red);
+    margin-left: 28px;
+}
+.grade-findOut {
+    color: var(--color-ui--blue);
+    background-color: var();
+    border: 1px solid var(--color-ui--blue-accent);
+    padding: var(--padding--btn-sm);
+    line-height: var(--lineheight-s);
+    font-size: var(--fontsize-xs);
+    border-radius: var(--btn-radius--sm);   
+}

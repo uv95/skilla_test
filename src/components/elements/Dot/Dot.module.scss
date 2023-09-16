@@ -1,0 +1,21 @@
+.dots {
+ display: flex;
+ gap: 2px;
+}
+
+.red svg{
+ fill: var(--color-ui--red);
+}
+
+.green svg{
+    fill: var(--color-ui--green);
+}
+
+.yellow svg{
+    fill: var(--color-ui--yellow);
+    box-shadow: 0px 3px 8px 0px #EDDA0180;
+}
+
+.gray svg{
+ fill: var(--color-ui--gray);
+}

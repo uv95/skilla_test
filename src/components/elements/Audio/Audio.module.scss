@@ -1,0 +1,35 @@
+.audio {
+    width: 352px;
+    height: 48px;
+    background: #EAF0FA;
+    padding: 0 12px 0 18px;
+    border-radius: var(--btn-radius--lg);
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}
+.playBtn {
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    margin-right: 8px;
+
+  
+}
+
+.progressBar {
+    width: 164px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: var(--color-ui--gray);
+}
+
+.downloadBtn{
+    margin-left: 18px;
+}
